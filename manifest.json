@@ -1,0 +1,14 @@
+﻿{
+  "name": "人民教育出版社课本翻页",
+  "version": "1.0",
+  "description": "人民教育出版社课本翻页",
+  "content_scripts": [ {
+    "js": [ "content.js"],
+    "matches": ["*://www.pep.com.cn/*"]
+  }],
+  "web_accessible_resources": ["inject.js"],
+  "icons" : {
+    "48" : "icon-48.png"
+  },
+  "manifest_version": 2
+}
